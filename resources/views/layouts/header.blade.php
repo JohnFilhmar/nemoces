@@ -1,4 +1,4 @@
-<header>
+<header class="relative z-10">
   <nav class="bg-gray-800 shadow-lg transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-20 py-4">
@@ -10,7 +10,7 @@
 
           <div class="hidden md:ml-12 md:flex md:space-x-8">
             <a href="{{ route('home') }}" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-3 text-lg font-medium rounded-md transition-all duration-200 transform hover:scale-105">Home</a>
-            <a href="#about" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-3 text-lg font-medium rounded-md transition-all duration-200 transform hover:scale-105">About</a>
+            <a href="{{ route('about') }}" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-3 text-lg font-medium rounded-md transition-all duration-200 transform hover:scale-105">About</a>
             <a href="#services" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-3 text-lg font-medium rounded-md transition-all duration-200 transform hover:scale-105">Services</a>
             <a href="#contact" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-3 text-lg font-medium rounded-md transition-all duration-200 transform hover:scale-105">Contact</a>
           </div>
@@ -41,8 +41,6 @@
             </div>
           @else
             <a href="#" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-3 text-lg font-medium rounded-md transition-all duration-200 transform hover:scale-105 hidden md:block">Login</a>
-            <a href="#"
-              class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-medium transition-all duration-200 transform hover:scale-105 hidden md:block hover:shadow-lg">Register</a>
           @endauth
         </div>
 
@@ -59,12 +57,11 @@
       <!-- Mobile menu -->
       <div id="mobile-menu" class="hidden md:hidden transform transition-all duration-300 ease-in-out">
         <div class="px-2 pt-2 pb-4 space-y-2">
-          <a href="#" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">Home</a>
-          <a href="#about" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">About</a>
+          <a href="{{ route('home') }}" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">Home</a>
+          <a href="{{ route('about') }}" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">About</a>
           <a href="#services" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">Services</a>
           <a href="#contact" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">Contact</a>
           <a href="#login" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">Login</a>
-          <a href="#register" class="text-gray-300 hover:text-white hover:bg-gray-700 block px-4 py-3 text-lg font-medium rounded-md transition-all duration-200">Register</a>
         </div>
       </div>
     </div>

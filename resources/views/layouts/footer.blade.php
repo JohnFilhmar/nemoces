@@ -17,7 +17,7 @@ $footerData = [
 ];
 ?>
 
-<footer class="bg-gray-800 text-white py-8 mt-auto text-center">
+<footer class="bg-gray-800 text-white py-8 mt-auto text-center z-10 relative">
   <div class="container mx-auto px-4">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Company Info -->

@@ -2,38 +2,11 @@
 @section('content')
 
 
-<main class="relative grow flex items-center justify-center text-center text-white overflow-y-auto overflow-x-hidden">
+<main class="grow flex items-center justify-center text-center text-white overflow-y-auto overflow-x-hidden">
   <!-- Background Image with Parallax Effect -->
-  <!-- Carousel Background covering the whole page -->
-  <div class="absolute inset-0 carousel-container">
-    <div class="carousel-track">
-      <div class="carousel-slide active">
-        <img src="/images/corals1.jpg" alt="Coral Reef 1" class="w-full h-full object-cover">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/corals2.jpg" alt="Coral Reef 2" class="w-full h-full object-cover">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/corals3.jpg" alt="Coral Reef 3" class="w-full h-full object-cover">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/corals4.jpg" alt="Coral Reef 4" class="w-full h-full object-cover">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/corals5.jpg" alt="Coral Reef 5" class="w-full h-full object-cover">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/corals6.jpg" alt="Coral Reef 6" class="w-full h-full object-cover">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/corals7.jpg" alt="Coral Reef 7" class="w-full h-full object-cover">
-      </div>
-    </div>
-    <div class="absolute inset-0 bg-gradient-to-b from-blue-900/40 via-blue-800/50 to-teal-900/60"></div>
-  </div>
 
   <!-- Animated Content Container -->
-  <div class="relative z-10 max-w-4xl px-6 py-12 animate-fade-in">
+  <div class="max-w-4xl px-6 py-12">
     <!-- Main Title with Glow Effect -->
     <div class="text-center mb-8">
       <img src="/images/nemoces.png" alt="N.E.M.O.C.E.S. Logo" class="mx-auto h-24 md:h-32 w-auto mb-6 hover:rotate-3 transition-transform duration-300">
